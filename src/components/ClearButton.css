@@ -1,0 +1,23 @@
+.ClearFct {
+    display: flex;
+    justify-content: end;
+    margin: .5rem;
+}
+
+.ClearFct>button {
+    padding: 1rem;
+    width: 25%;
+    border-radius: .5rem;
+    border: .2rem solid rgb(236, 232, 232);
+    background-color: white;
+
+}
+
+/* transition time */
+.ClearFct>button {
+    transition: .2s;
+}
+
+.ClearFct>button:hover {
+    background-color: rgb(227, 227, 227);
+}
